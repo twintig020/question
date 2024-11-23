@@ -1,3 +1,5 @@
+console.log("Script loaded");
+
 const questions = [
     "What activities make me lose track of time because I enjoy them so much?",
     "How do I typically react to stress, and what can I learn from those reactions?",
