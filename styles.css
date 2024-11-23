@@ -5,11 +5,12 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+    font-family: 'Helvetica', Arial, sans-serif; /* Set Helvetica as the primary font */
 }
 
 .card {
     width: 80vw;
-    max-width: 240px;
+    max-width: 300px; /* Increased for better readability */
     aspect-ratio: 4 / 3;
     background-color: white;
     border-radius: 10px;
@@ -17,15 +18,19 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between; /* Changed to space-between for better layout */
     align-items: center;
 }
 
 #question {
-    min-height: 50px; 
+    flex-grow: 1; /* Allow question to take up available space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 20px;
+    width: 100%; /* Ensure full width */
 }
 
 #nextBtn {
@@ -36,4 +41,9 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#nextBtn:hover {
+    background-color: #45a049; /* Change button color on hover */
 }
