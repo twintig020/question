@@ -1,7 +1,7 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
