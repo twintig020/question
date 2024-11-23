@@ -8,8 +8,8 @@ body {
 }
 
 .card {
-    width: 60vw;
-    max-width: 200px;
+    width: 80vw;
+    max-width: 240px;
     aspect-ratio: 4 / 3;
     background-color: white;
     border-radius: 10px;
